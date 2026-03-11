@@ -1,5 +1,5 @@
 {% set name = "geogravl3" %}
-{% set version = "1.2.1" %}
+{% set version = "1.2.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: f35e7fd4e480356f05c765a36fd739629926a50b4b3eb13e75a526ed2bbc7b49
+  sha256: a22d349245024ba7b8453ba2b8fc2aafa3173fe7627f72b3ca73037e37c80fa3
 
 build:
   entry_points:
